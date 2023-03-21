@@ -1,0 +1,12 @@
+body{
+    margin: 20px 240px;
+    background-image: url("../img/fundo2.png");
+}
+
+p.m1{
+    margin-top: -15px;
+}
+
+p.m2{
+    margin-top: 35px;
+}
