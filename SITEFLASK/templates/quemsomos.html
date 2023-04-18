@@ -1,25 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-<style>
-</style>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unes</title>
-    <link rel="stylesheet" href="../static/styles/estilo2.css">
-</head>
-<body>
-    <!-- cabeçalho -->
-<img src="../static/img/logo.png">
-<div style="text-align: right;">
-<p class="m1">
-    <a href="/">Home | </a>
-    <a href="quemsomos">Quem Somos | </a>
-    <a href="contato">Contato</a>
-</p>
-</div>
+{% extends "base.html" %}
     <!-- corpo -->
+{% block content %}
 <p class="m2">
 <h2>Quem Somos</h2> 
 </p>
@@ -45,9 +26,7 @@
     libero in laudantium! Magnam, dolores aperiam dolor totam neque, molestias sit nam ex rem earum, 
     inventore atque?Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><br>
 
+{% endblock %}
     <!-- rodapé -->
-    <div style="text-align: center;">
-        <h4>Todos os direitos reservados</h4>
-    </div>
-</body>
-</html>
+{% block footer %}
+{% endblock %}

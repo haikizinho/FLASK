@@ -1,30 +1,9 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-<style>
-</style>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unes</title>
-    <link rel="stylesheet" href="../static/styles/estilo.css">
-</head>
-<body>
-    <!-- cabeçalho -->
-<img src="../static/img/logo.png">
-<div style="text-align: right;">
-<p class="m1">
-    <a href="/">Home | </a>
-    <a href="quemsomos">Quem Somos | </a>
-    <a href="contato">Contato</a>
-</p>
-</div>
+{% extends "base.html" %}
     <!-- corpo -->
-<div style="text-align: center;">
+{% block content %}
 <p class="m2">
     <img src="../static/img/capa.png">
 </p>
-</div>
 <h2>Sobre a Universidade</h2>
 <p>Lorem <b>ipsum dolor</b> sit amet, consectetur adipisicing elit. Obcaecati earum at non voluptas voluptate 
 dolorem velit nulla, adipisci soluta quis libero qui voluptatum vero vel, tempora aliquid provident 
@@ -43,13 +22,8 @@ officia cum? Lorem ipsum dolor sit amet, consectetur adipisicing elit..</p>
     officia cum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. tempora aliquid provident 
     officia cum? Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
-<p>
-         .
-</p>
-
+{% endblock %}
     <!-- rodapé -->
-    <div style="text-align: center;">
-        <h4>Todos os direitos reservados</h4>
-    </div>
-</body>
-</html>
+{% block footer %}
+{% endblock %}
+</p>

@@ -1,5 +1,5 @@
 body{
-    margin: 20px 240px;
+    margin: 20px 240px ;
     background-image: url("../img/fundo.png");
 }
 
@@ -10,3 +10,4 @@ p.m1{
 p.m2{
     margin-top: 35px;
 }
+
